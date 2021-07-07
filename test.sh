@@ -1,6 +1,6 @@
-#！/bin/bash
+#!/bin/bash
 
-val1 = $1
-val2 = $2
+arg1=$1
+arg2=$2
 
-echo $val1 $val2
+echo "$arg1$arg2"
